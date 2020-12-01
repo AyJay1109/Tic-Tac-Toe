@@ -1,0 +1,35 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #2243d7;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.92'%3E%3Ccircle fill='%232243d7' cx='50' cy='0' r='50'/%3E%3Cg fill='%232157d7' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%232067d8' cx='50' cy='100' r='50'/%3E%3Cg fill='%231f74d8' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%231e81d9' cx='50' cy='200' r='50'/%3E%3Cg fill='%231e8cd9' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%231d96da' cx='50' cy='300' r='50'/%3E%3Cg fill='%231ca0da' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%231ba9db' cx='50' cy='400' r='50'/%3E%3Cg fill='%2319b2db' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2318badc' cx='50' cy='500' r='50'/%3E%3Cg fill='%2317c2dc' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2316cadc' cx='50' cy='600' r='50'/%3E%3Cg fill='%2315d1dd' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2313d8dd' cx='50' cy='700' r='50'/%3E%3Cg fill='%2312dfde' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2310e6de' cx='50' cy='800' r='50'/%3E%3Cg fill='%230eeddf' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%230cf3df' cx='50' cy='900' r='50'/%3E%3Cg fill='%2309f9e0' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2305ffe0' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+body h1 {
+    font-size: 50px;
+}
+
+.game--restart {
+    font-size: 20px;
+}
+
+section {
+    text-align: center;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+line-height: 100px;
+    font-size: 60px;
+}
